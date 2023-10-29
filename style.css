@@ -120,6 +120,13 @@ main {
 
 }
 
+.login button:hover{
+   background: var(--light-purple);
+   transition: 0.3s;
+   cursor:pointer;
+
+}
+
 .login>p {
    color: var(--gray-600)
 }
@@ -135,21 +142,21 @@ main {
 
 
 
+
+
 @media(min-width:1000px) {
 
    body {
       display: flex;
-   }
+      height:100vh;
 
+   }
 
    header {
       background: none;
       justify-content: flex-start;
       margin: 2.5rem 7rem 7rem;
       height: fit-content;
-   
-
-
    }
 
    header img {
@@ -173,6 +180,15 @@ main {
    .bg-desktop {
       display: block;
       width: 100%;
+
+   }
+
+
+   .bg-desktop img{
+      display:block;
+      width:100%;
+      height:100%;
+
 
    }
 
